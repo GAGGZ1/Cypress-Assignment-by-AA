@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# System files
+.DS_Store
+.localized
+
+# Editor config
+.idea/
+.vscode/
+
+# Ignore test data
+cypress/fixtures/testData.json
