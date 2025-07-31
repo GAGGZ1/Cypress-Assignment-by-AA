@@ -5,7 +5,7 @@ class LoginPage {
       "https://community2.cloud-2.automationanywhere.digital/#/login?next=/index"
     );
 
-    cy.url().should("include", "/login"); // Assertion - usl should contains 'login'
+    cy.url().should("include", "/login"); // Assertion - url should contains 'login'
     // waiting the site to load due to slow internet
     cy.wait(5000);
   }

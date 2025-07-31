@@ -8,7 +8,7 @@ class CreateLearningInstance {
       .should("be.visible")
       .click();
 
-    //Assertion cheking url matches or not
+    //Assertion checking url matches or not
     cy.url().should(
       "include",
       "/modules/cognitive/iqbot/pages/learning-instances"
@@ -55,7 +55,7 @@ class CreateLearningInstance {
     cy.get("@iframeLi").contains("button", "Next").click();
   }
 
-  // Add fiels with test Data
+  // Add fields with test Data
   addFieldsData() {
     cy.get("@iframeLi").contains("button", "Add a field").click();
     cy.get("@iframeLi")
@@ -67,7 +67,7 @@ class CreateLearningInstance {
     cy.get("@iframeLi").find('input[name="confidenceThreshold"]').click();
   }
 
-  // Final cretae Button
+  // Final creata Button
   finalCreateButton() {
     cy.get("@iframeLi")
       .find('button[aria-label="Create"].command-button__button--is_solid')
