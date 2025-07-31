@@ -15,7 +15,5 @@ This repo contains Cypress tests using the **Page Object Model (POM)** structure
 ## 🧪 Tech Stack
 
 * Cypress (E2E Testing)
-* Mocha & Chai
-* Node.js & NPM
 * Prettier (Code Formatting)
 
